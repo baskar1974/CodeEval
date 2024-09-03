@@ -1,0 +1,18 @@
+Question,Code
+What is the output of `print(2 + 3)`?,5
+How do you create a list in Python?,"my_list = [1, 2, 3]"
+How do you define a function in Python?,"def my_function():
+    pass"
+What is the result of `len('hello')`?,5
+How do you loop through a list in Python?,"for item in my_list:
+    print(item)"
+How do you append an item to a list?,my_list.append(4)
+How do you handle exceptions in Python?,"try:
+    # code
+except Exception as e:
+    # handle exception"
+What is a dictionary in Python?,my_dict = {'key': 'value'}
+How do you read a file in Python?,"with open('file.txt', 'r') as file:
+    content = file.read()"
+How do you write to a file in Python?,"with open('file.txt', 'w') as file:
+    file.write('Hello World')"
