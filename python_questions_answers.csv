@@ -1,0 +1,35 @@
+question,code
+Write a Python function to reverse a string.,"def reverse_string(s):
+    return s[::-1]"
+Create a function to check if a number is even.,"def is_even(num):
+    return num % 2 == 0"
+Write a function to find the maximum of three numbers.,"def max_of_three(a, b, c):
+    return max(a, b, c)"
+Create a function to calculate the factorial of a number.,"def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)"
+Write a Python function to count the number of vowels in a string.,"def count_vowels(s):
+    vowels = 'aeiou'
+    count = sum(1 for char in s.lower() if char in vowels)
+    return count"
+Create a function to check if a string is a palindrome.,"def is_palindrome(s):
+    s = s.lower()
+    return s == s[::-1]"
+Write a function to sort a list of integers in ascending order.,"def sort_list(lst):
+    return sorted(lst)"
+Create a function to generate a Fibonacci sequence up to n numbers.,"def fibonacci(n):
+    sequence = []
+    a, b = 0, 1
+    while a < n:
+        sequence.append(a)
+        a, b = b, a + b
+    return sequence"
+Write a Python function to merge two dictionaries.,"def merge_dicts(dict1, dict2):
+    result = dict1.copy()
+    result.update(dict2)
+    return result"
+Create a function to read a file and count the number of lines in it.,"def count_lines_in_file(file_path):
+    with open(file_path, 'r') as file:
+        return len(file.readlines())"
